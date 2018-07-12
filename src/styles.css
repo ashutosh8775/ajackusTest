@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+
+.fixed img{
+	position:relative;
+	top:12px;
+}
+
+@font-face {
+    font-family: BoldFont;
+    src: url(assets/Fonts/SF-Compact-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: RegularFont;
+    src: url(assets/Fonts/SF-Compact-Display-Regular.otf);
+}
+
+.fas{
+	font-size: 18px;
+    color: #d8341e;
+}
+
+.landing-text h1{
+	font-family: BoldFont;
+	font-size: 40px;
+	color:#ed6b5a;
+}
+
+.landing-text p{
+	position:relative;
+	bottom:15px;
+	font-family:RegularFont;
+	color:grey;
+	font-size:14px;
+}

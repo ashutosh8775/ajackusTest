@@ -1,0 +1,48 @@
+h2{
+	font-family: RegularFont;
+	font-size:30px;
+	color:#29559b;
+}
+.Sign-Up{
+	margin-top:50px;
+	font-family: RegularFont;
+	margin-bottom:20px;
+}
+.Sign-Up button{
+	padding: 10px 20px 10px 20px;
+	color:#d8341e;
+	border:1px solid #d8341e;
+	background: #FFFFFF;
+}
+
+.Sign-Up button:hover{
+	background: #d14432;
+	text-decoration: none;
+	color:#FFF;
+	border:1px solid #d8341e;
+}
+.Sign-in a{
+	margin-top: 15px;
+	color:grey;
+	text-decoration:none;
+}
+.Sign-in a:hover{
+	text-decoration:none;
+}
+
+
+@media (max-width:768px){
+	
+	img{
+		width:85%;
+	}
+	.landing-text h1{
+		font-size:30px;
+	}
+	.landing-text p{
+	font-size:12px;
+	}
+.Sign-Up{
+	margin-top:30px;
+	}
+}

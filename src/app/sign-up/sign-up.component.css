@@ -1,0 +1,54 @@
+.header{
+	margin-top:10vh;
+}
+.header p{
+	margin-top: 10px;
+	font-family: RegularFont;
+	font-size:15px;
+}
+.form-container{
+	margin-top:40px;
+	display:inline-block;
+}
+label{
+	display:block;
+	font-size:10px;
+	font-family: RegularFont;
+	text-align:left;
+	color:grey;
+	text-transform:uppercase;
+}
+input{
+	margin-top:4px;
+	margin-bottom:25px;
+	padding:10px;
+	width:300px;
+	padding:15px;
+	border-radius: 8px;
+}
+.input{
+	color:#FFFFFF;
+	background-color:#434447;
+	font-family: BoldFont;
+}
+.submit button{
+	margin-top:30px;
+	padding:10px 40px;
+	color:#d8341e;
+	border:1px solid #d8341e;
+	background: #FFFFFF;
+}
+.submit button:hover{
+	background: #d14432;
+	text-decoration: none;
+	color:#FFF;
+	border:1px solid #d8341e;
+}
+button:disabled {
+   cursor: not-allowed;
+}		
+.error{
+	display:block;
+	text-align:left;
+	color:red;
+}		

@@ -1,0 +1,21 @@
+h2{
+	font-family:RegularFont;
+	font-size:30px;
+	color:#29559b;
+}
+.landing-text h1{
+	font-size: 40px;
+	color:#ed6b5a;
+}
+@media (max-width:768px){
+	
+	img{
+		width:80%;
+	}
+	h1{
+		font-size:30px;
+	}
+	p{
+		
+	}
+}
